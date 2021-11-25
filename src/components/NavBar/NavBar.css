@@ -1,0 +1,29 @@
+.navBar{
+    display: flex;
+  flex-wrap: wrap;
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  height: 100px;
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.buttons{
+    color: #000;
+    display: flex;
+    padding: 25px;
+    padding-left: 180px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.logoNav{
+    display: flex;
+    height: 85px;
+   width: 85px;
+   padding: 10px;
+   background-image: url(../../img/reactLogo.png);
+   background-size: cover;
+   background-position: center;
+}
